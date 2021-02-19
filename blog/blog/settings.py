@@ -77,10 +77,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',	# MySQL数据库
         # 'NAME': BASE_DIR / 'db.sqlite3',		# sqlite3数据库
-        'NAME': 'BMSTest',          # 数据库名称
+        'NAME': 'myblog',          # 数据库名称
         'HOST': '127.0.0.1',    	# 数据库地址，本机 ip 地址 127.0.0.1
         'PORT': 3306,               # 数据库端口
-        'USER': 'root',             # 数据库用户名
+        'USER': 'czy',             # 数据库用户名
         'PASSWORD': '123456',       # 数据库密码
     }
 }
